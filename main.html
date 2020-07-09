@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <div class="container">
+      
+        <div class="divStyle">
+            
+            <!-- column-1 personal information -->
+            
+            <div class="column1">
+                <h4>Personal information</h4>
+                
+                <form action="">
+                
+                    <div class="elementStyle">
+                        <label for="roll">Roll Number:</label>
+                        <input type="password" id='contact'>
+                    </div>
+    
+                    <div class="elementStyle">
+                        <label for="stuName">Student Name:</label>
+                        <input type="text" id='stuName' class="inputStyle1">
+                    </div>
+    
+                    <div class="elementStyle">
+                        <label for="fatherName">Father's Name:</label>
+                        <input type="text" id='fatherName' class="inputStyle1">
+                    </div>
+    
+                    <div class="elementStyle">
+                        <label for="motherName">Mother's Name:</label>
+                        <input type="text" id='motherName' class="inputStyle1">
+                    </div>
+    
+                    <div class="elementStyle">
+                        <label for="address">Address:</label>
+                        <input type="text" id='address' class="inputStyle1">
+                    </div>
+    
+                    <div class="elementStyle">
+                        <label for="dob">Date of birth:</label>
+                        <input type="date" id='dob'>
+                    </div>
+    
+                    <div class="elementStyle">
+                        <label for="contact">Contact Number:</label>
+                        <input type="password" id='contact'>
+                    </div>
+                    
+                    <div class="radioElementStyle">
+                        <label for="gender">Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </div>
+    
+                </form>
+                
+            </div>
+            
+            <!-- column-1 ends here -->
+            
+            
+            <!-- column-2 educational information -->
+            
+            <div class="column2">
+                <h4>Educational Information</h4>
+    
+                <form action="">
+    
+                    <div class='elementStyle'>
+                        <label for="ssc_grp">SSC Group:</label>
+                        
+                        <select name="ssc_grp" id="ssc_grp" class="sscGrpStyle">
+                            <option value="">Choose your group</option>
+                            <option value="science">Science</option>
+                            <option value="commarce">Commarce</option>
+                            <option value="arts">Arts</option>
+                        </select>
+                    </div>
+                    
+                    <div class='elementStyle'>
+                        <label for="hsc_sub">HSC Subjects:</label>
+                        
+                        <input type="text" id='hsc_sub' placeholder="Bangla" readonly class="inputStyle2"> <br>
+                        
+                        <input type="text" id='hsc_sub' placeholder="English" readonly class="inputStyle3"> <br>
+                        
+                        <input type="text" id='contact' placeholder="ICT" readonly class="inputStyle3">
+                    </div>
+                    
+                    <div class='elementStyle'>
+                        <label for="hsc_grp">HSC Group:</label>
+                        
+                        <select name="hsc_grp" id="hsc_grp" class="hscGrp">
+                            <option value="">Choose your group</option>
+                            <option value="science">Science</option>
+                            <option value="commarce">Commarce</option>
+                            <option value="arts">Arts</option>
+                        </select>
+                    </div>
+                    
+                    <div class='elementStyle'>
+                        <label for="hsc_grp_sub">1st Subject:</label>
+                        
+                        <select name="hsc_grp_sub" id="hsc_grp_sub" class="hscSubStyle_1">
+                            <option value="">Choose your 1st subject</option>
+                            <option value="physics">Physics</option>
+                            <option value="chemistry">Chemistry</option>
+                        </select>
+                    </div>
+                    
+                    <div class='elementStyle'>
+                        <label for="hsc_grp_sub">2nd Subject:</label>
+                        
+                        <select name="hsc_grp_sub" id="hsc_grp_sub" class="hscSubStyle_2">
+                            <option value="">Choose your 2nd subject</option>
+                            <option value="physics">Physics</option>
+                            <option value="chemistry">Chemistry</option>
+                        </select>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class='elementStyle'>
+                        <label for="com_sub">Compulsory Subject:</label>
+                        
+                        <select name="com_sub" id="com_sub" class="comStyle">
+                            <option value="">Choose your compulsory subject</option>
+                            <option value="biology">Biology</option>
+                            <option value="higher_math">Higher Math</option>
+                        </select>
+                    </div>
+                    
+                    <div class='elementStyle'>
+                        <label for="opt_sub">Optional Subject:</label>
+                        
+                        <select name="opt_sub" id="opt_sub" class="optStyle">
+                            <option value="">Choose your optional subject</option>
+                            <option value="biology">Biology</option>
+                            <option value="higher_math">Higher Math</option>
+                        </select>
+                    </div>
+                    
+                </form>
+                
+            </div>
+
+            <!-- column-2 ends here -->
+            
+        </div>
+
+        <!-- divStyle ends here -->
+            
+            
+        <!-- submit and cancel buttons -->
+
+        <div>
+            <button type="submit" class="submitbtn">Submit</button>
+        </div>
+
+        <div>
+            <button type="button" class="updatebtn">Update</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>    
